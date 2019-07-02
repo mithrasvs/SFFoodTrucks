@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9239393222CBE18F00744723 /* GetFoodTrucksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9239393122CBE18F00744723 /* GetFoodTrucksList.swift */; };
+		9239393522CBFBDC00744723 /* FoodTrucksInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9239393422CBFBDC00744723 /* FoodTrucksInfo.swift */; };
+		9239393722CBFBF300744723 /* LocationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9239393622CBFBF200744723 /* LocationDetails.swift */; };
 		DCAD920D22CB835C0080FBCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAD920C22CB835C0080FBCA /* AppDelegate.swift */; };
 		DCAD921622CB835F0080FBCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAD921522CB835F0080FBCA /* Assets.xcassets */; };
 		DCAD921922CB835F0080FBCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAD921722CB835F0080FBCA /* LaunchScreen.storyboard */; };
@@ -40,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		9239393122CBE18F00744723 /* GetFoodTrucksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFoodTrucksList.swift; sourceTree = "<group>"; };
+		9239393422CBFBDC00744723 /* FoodTrucksInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTrucksInfo.swift; sourceTree = "<group>"; };
+		9239393622CBFBF200744723 /* LocationDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetails.swift; sourceTree = "<group>"; };
 		DCAD920922CB835C0080FBCA /* SFFoodTrucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFFoodTrucks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCAD920C22CB835C0080FBCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCAD921522CB835F0080FBCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -92,6 +96,15 @@
 			path = "Network Manager";
 			sourceTree = "<group>";
 		};
+		9239393322CBFBBF00744723 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9239393422CBFBDC00744723 /* FoodTrucksInfo.swift */,
+				9239393622CBFBF200744723 /* LocationDetails.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		DCAD920022CB835C0080FBCA = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +128,7 @@
 		DCAD920B22CB835C0080FBCA /* SFFoodTrucks */ = {
 			isa = PBXGroup;
 			children = (
+				9239393322CBFBBF00744723 /* Models */,
 				9239393022CBE14D00744723 /* Network Manager */,
 				DCAD924522CB97DF0080FBCA /* List */,
 				DCAD924422CB97B60080FBCA /* Map */,
@@ -333,6 +347,8 @@
 				DCAD924B22CB9BE20080FBCA /* ListViewPresenter.swift in Sources */,
 				DCAD923E22CB84DB0080FBCA /* MapViewController.swift in Sources */,
 				9239393222CBE18F00744723 /* GetFoodTrucksList.swift in Sources */,
+				9239393722CBFBF300744723 /* LocationDetails.swift in Sources */,
+				9239393522CBFBDC00744723 /* FoodTrucksInfo.swift in Sources */,
 				DCAD924222CB84F70080FBCA /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
