@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9239393222CBE18F00744723 /* GetFoodTrucksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9239393122CBE18F00744723 /* GetFoodTrucksList.swift */; };
 		DCAD920D22CB835C0080FBCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAD920C22CB835C0080FBCA /* AppDelegate.swift */; };
 		DCAD921622CB835F0080FBCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAD921522CB835F0080FBCA /* Assets.xcassets */; };
 		DCAD921922CB835F0080FBCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAD921722CB835F0080FBCA /* LaunchScreen.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9239393122CBE18F00744723 /* GetFoodTrucksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFoodTrucksList.swift; sourceTree = "<group>"; };
 		DCAD920922CB835C0080FBCA /* SFFoodTrucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFFoodTrucks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCAD920C22CB835C0080FBCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCAD921522CB835F0080FBCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9239393022CBE14D00744723 /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9239393122CBE18F00744723 /* GetFoodTrucksList.swift */,
+			);
+			path = "Network Manager";
+			sourceTree = "<group>";
+		};
 		DCAD920022CB835C0080FBCA = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +115,7 @@
 		DCAD920B22CB835C0080FBCA /* SFFoodTrucks */ = {
 			isa = PBXGroup;
 			children = (
+				9239393022CBE14D00744723 /* Network Manager */,
 				DCAD924522CB97DF0080FBCA /* List */,
 				DCAD924422CB97B60080FBCA /* Map */,
 				DCAD920C22CB835C0080FBCA /* AppDelegate.swift */,
@@ -321,6 +332,7 @@
 				DCAD920D22CB835C0080FBCA /* AppDelegate.swift in Sources */,
 				DCAD924B22CB9BE20080FBCA /* ListViewPresenter.swift in Sources */,
 				DCAD923E22CB84DB0080FBCA /* MapViewController.swift in Sources */,
+				9239393222CBE18F00744723 /* GetFoodTrucksList.swift in Sources */,
 				DCAD924222CB84F70080FBCA /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
