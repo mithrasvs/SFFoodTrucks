@@ -11,16 +11,19 @@ import UIKit
 class ListViewController: UIViewController {
     
     
-    @IBOutlet weak var mapBtn: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "List View"
         navigationItem.hidesBackButton = true
-        mapBtn.addTarget(self, action: #selector(flipVC), for: .touchUpInside)
+        
+        let mapViewBtn = UIBarButtonItem.init(title: "Map", style: .plain, target: self, action: #selector(flipToMapView))
+        mapViewBtn.tintColor = .white
+        
+        navigationItem.rightBarButtonItem = mapViewBtn
+        
     }
 
-    @objc func flipVC(){
+    @objc func flipToMapView(){
         UIView.transition(with: self.navigationController!.view, duration: 1.0, options: .transitionFlipFromLeft, animations: {
             self.navigationController?.popViewController(animated: false)
         }, completion: nil)

@@ -16,6 +16,8 @@
 		DCAD923F22CB84DB0080FBCA /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCAD923D22CB84DB0080FBCA /* MapViewController.xib */; };
 		DCAD924222CB84F70080FBCA /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAD924022CB84F70080FBCA /* ListViewController.swift */; };
 		DCAD924322CB84F70080FBCA /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCAD924122CB84F70080FBCA /* ListViewController.xib */; };
+		DCAD924B22CB9BE20080FBCA /* ListViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAD924A22CB9BE20080FBCA /* ListViewPresenter.swift */; };
+		DCAD924D22CB9C070080FBCA /* MapViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAD924C22CB9C070080FBCA /* MapViewPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		DCAD923D22CB84DB0080FBCA /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 		DCAD924022CB84F70080FBCA /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		DCAD924122CB84F70080FBCA /* ListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		DCAD924A22CB9BE20080FBCA /* ListViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewPresenter.swift; sourceTree = "<group>"; };
+		DCAD924C22CB9C070080FBCA /* MapViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,8 +136,8 @@
 		DCAD924422CB97B60080FBCA /* Map */ = {
 			isa = PBXGroup;
 			children = (
-				DCAD923D22CB84DB0080FBCA /* MapViewController.xib */,
-				DCAD923C22CB84DB0080FBCA /* MapViewController.swift */,
+				DCAD924922CB9BB70080FBCA /* Presenter */,
+				DCAD924722CB9B810080FBCA /* ViewController */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -141,10 +145,44 @@
 		DCAD924522CB97DF0080FBCA /* List */ = {
 			isa = PBXGroup;
 			children = (
-				DCAD924122CB84F70080FBCA /* ListViewController.xib */,
-				DCAD924022CB84F70080FBCA /* ListViewController.swift */,
+				DCAD924822CB9BAB0080FBCA /* Presenter */,
+				DCAD924622CB9B670080FBCA /* ViewController */,
 			);
 			path = List;
+			sourceTree = "<group>";
+		};
+		DCAD924622CB9B670080FBCA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DCAD924022CB84F70080FBCA /* ListViewController.swift */,
+				DCAD924122CB84F70080FBCA /* ListViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DCAD924722CB9B810080FBCA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DCAD923C22CB84DB0080FBCA /* MapViewController.swift */,
+				DCAD923D22CB84DB0080FBCA /* MapViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DCAD924822CB9BAB0080FBCA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DCAD924A22CB9BE20080FBCA /* ListViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DCAD924922CB9BB70080FBCA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DCAD924C22CB9C070080FBCA /* MapViewPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,7 +317,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCAD924D22CB9C070080FBCA /* MapViewPresenter.swift in Sources */,
 				DCAD920D22CB835C0080FBCA /* AppDelegate.swift in Sources */,
+				DCAD924B22CB9BE20080FBCA /* ListViewPresenter.swift in Sources */,
 				DCAD923E22CB84DB0080FBCA /* MapViewController.swift in Sources */,
 				DCAD924222CB84F70080FBCA /* ListViewController.swift in Sources */,
 			);

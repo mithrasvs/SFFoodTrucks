@@ -10,20 +10,18 @@ import UIKit
 
 class MapViewController: UIViewController {
 
-    @IBOutlet weak var listBtn: UIButton!
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let listViewBtn = UIBarButtonItem.init(title: "List", style: .plain, target: self, action: #selector(flipToListView))
+        listViewBtn.tintColor = .white
+        
+        navigationItem.rightBarButtonItem = listViewBtn
         
         title = "Map View"
-        
-        listBtn.addTarget(self, action: #selector(flipVC), for: .touchUpInside)
-        
     }
 
-   @objc func flipVC(){
+   @objc func flipToListView(){
     
     let listVC = ListViewController.init(nibName: "ListViewController", bundle: nil)
     
