@@ -21,12 +21,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let navigationController = UINavigationController.init(rootViewController: mapViewController)
         
+        navigationController.navigationBar.barTintColor = UIColor.init(red: 220, green: 20, blue: 60, alpha: 1)
+        
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
         
         // Configure Global Navigation bar
-        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 22)]
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 18)]
         
         
         return true

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DCAD920D22CB835C0080FBCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAD920C22CB835C0080FBCA /* AppDelegate.swift */; };
-		DCAD921422CB835C0080FBCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAD921222CB835C0080FBCA /* Main.storyboard */; };
 		DCAD921622CB835F0080FBCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAD921522CB835F0080FBCA /* Assets.xcassets */; };
 		DCAD921922CB835F0080FBCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAD921722CB835F0080FBCA /* LaunchScreen.storyboard */; };
 		DCAD922422CB835F0080FBCA /* SFFoodTrucksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAD922322CB835F0080FBCA /* SFFoodTrucksTests.swift */; };
@@ -39,7 +38,6 @@
 /* Begin PBXFileReference section */
 		DCAD920922CB835C0080FBCA /* SFFoodTrucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFFoodTrucks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCAD920C22CB835C0080FBCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCAD921322CB835C0080FBCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCAD921522CB835F0080FBCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCAD921822CB835F0080FBCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCAD921A22CB835F0080FBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				DCAD920C22CB835C0080FBCA /* AppDelegate.swift */,
-				DCAD921222CB835C0080FBCA /* Main.storyboard */,
 				DCAD921522CB835F0080FBCA /* Assets.xcassets */,
 				DCAD921722CB835F0080FBCA /* LaunchScreen.storyboard */,
 				DCAD921A22CB835F0080FBCA /* Info.plist */,
@@ -241,7 +238,6 @@
 				DCAD921922CB835F0080FBCA /* LaunchScreen.storyboard in Resources */,
 				DCAD921622CB835F0080FBCA /* Assets.xcassets in Resources */,
 				DCAD924322CB84F70080FBCA /* ListViewController.xib in Resources */,
-				DCAD921422CB835C0080FBCA /* Main.storyboard in Resources */,
 				DCAD923F22CB84DB0080FBCA /* MapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,14 +301,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DCAD921222CB835C0080FBCA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DCAD921322CB835C0080FBCA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DCAD921722CB835F0080FBCA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
