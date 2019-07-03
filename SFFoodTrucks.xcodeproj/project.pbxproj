@@ -10,6 +10,24 @@
 		9239393222CBE18F00744723 /* GetFoodTrucksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9239393122CBE18F00744723 /* GetFoodTrucksList.swift */; };
 		9239393522CBFBDC00744723 /* FoodTrucksInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9239393422CBFBDC00744723 /* FoodTrucksInfo.swift */; };
 		9239393722CBFBF300744723 /* LocationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9239393622CBFBF200744723 /* LocationDetails.swift */; };
+		9239395F22CC075A00744723 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9239394222CC075A00744723 /* AFURLResponseSerialization.m */; };
+		9239396022CC075A00744723 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9239394322CC075A00744723 /* AFHTTPSessionManager.m */; };
+		9239396122CC075A00744723 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9239394522CC075A00744723 /* AFURLSessionManager.m */; };
+		9239396222CC075A00744723 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9239394622CC075A00744723 /* AFURLRequestSerialization.m */; };
+		9239396322CC075A00744723 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9239394822CC075A00744723 /* AFNetworkReachabilityManager.m */; };
+		9239396422CC075A00744723 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9239394922CC075A00744723 /* AFSecurityPolicy.m */; };
+		9239396522CC075A00744723 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9239394B22CC075A00744723 /* UIProgressView+AFNetworking.m */; };
+		9239396622CC075A00744723 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9239394D22CC075A00744723 /* UIRefreshControl+AFNetworking.m */; };
+		9239396722CC075A00744723 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9239395022CC075A00744723 /* AFNetworkActivityIndicatorManager.m */; };
+		9239396822CC075A00744723 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9239395522CC075A00744723 /* UIImageView+AFNetworking.m */; };
+		9239396922CC075A00744723 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9239395822CC075A00744723 /* UIButton+AFNetworking.m */; };
+		9239396A22CC075A00744723 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9239395922CC075A00744723 /* UIActivityIndicatorView+AFNetworking.m */; };
+		9239396B22CC075A00744723 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9239395A22CC075A00744723 /* AFAutoPurgingImageCache.m */; };
+		9239396C22CC075A00744723 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9239395C22CC075A00744723 /* AFImageDownloader.m */; };
+		9239396F22CC527600744723 /* TruckInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9239396D22CC527600744723 /* TruckInfoTableViewCell.swift */; };
+		9239397022CC527600744723 /* TruckInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9239396E22CC527600744723 /* TruckInfoTableViewCell.xib */; };
+		9239397222CC68DC00744723 /* FoodTruckCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9239397122CC68DC00744723 /* FoodTruckCellData.swift */; };
+		92E3F4ED22CC6DD000AF1131 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E3F4EC22CC6DD000AF1131 /* Date.swift */; };
 		DCAD920D22CB835C0080FBCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAD920C22CB835C0080FBCA /* AppDelegate.swift */; };
 		DCAD921622CB835F0080FBCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAD921522CB835F0080FBCA /* Assets.xcassets */; };
 		DCAD921922CB835F0080FBCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAD921722CB835F0080FBCA /* LaunchScreen.storyboard */; };
@@ -44,6 +62,43 @@
 		9239393122CBE18F00744723 /* GetFoodTrucksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFoodTrucksList.swift; sourceTree = "<group>"; };
 		9239393422CBFBDC00744723 /* FoodTrucksInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTrucksInfo.swift; sourceTree = "<group>"; };
 		9239393622CBFBF200744723 /* LocationDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetails.swift; sourceTree = "<group>"; };
+		9239393C22CC059A00744723 /* SFFoodTrucks-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SFFoodTrucks-Bridging-Header.h"; sourceTree = "<group>"; };
+		9239393E22CC075A00744723 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		9239393F22CC075A00744723 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		9239394022CC075A00744723 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		9239394122CC075A00744723 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		9239394222CC075A00744723 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		9239394322CC075A00744723 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		9239394422CC075A00744723 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		9239394522CC075A00744723 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		9239394622CC075A00744723 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		9239394722CC075A00744723 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		9239394822CC075A00744723 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		9239394922CC075A00744723 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		9239394B22CC075A00744723 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		9239394C22CC075A00744723 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		9239394D22CC075A00744723 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		9239394E22CC075A00744723 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		9239394F22CC075A00744723 /* AFImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageDownloader.h; sourceTree = "<group>"; };
+		9239395022CC075A00744723 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		9239395122CC075A00744723 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAutoPurgingImageCache.h; sourceTree = "<group>"; };
+		9239395222CC075A00744723 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		9239395322CC075A00744723 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		9239395422CC075A00744723 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		9239395522CC075A00744723 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		9239395622CC075A00744723 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		9239395722CC075A00744723 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		9239395822CC075A00744723 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		9239395922CC075A00744723 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		9239395A22CC075A00744723 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAutoPurgingImageCache.m; sourceTree = "<group>"; };
+		9239395B22CC075A00744723 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		9239395C22CC075A00744723 /* AFImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageDownloader.m; sourceTree = "<group>"; };
+		9239395D22CC075A00744723 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		9239395E22CC075A00744723 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		9239396D22CC527600744723 /* TruckInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckInfoTableViewCell.swift; sourceTree = "<group>"; };
+		9239396E22CC527600744723 /* TruckInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TruckInfoTableViewCell.xib; sourceTree = "<group>"; };
+		9239397122CC68DC00744723 /* FoodTruckCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckCellData.swift; sourceTree = "<group>"; };
+		92E3F4EC22CC6DD000AF1131 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		DCAD920922CB835C0080FBCA /* SFFoodTrucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFFoodTrucks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCAD920C22CB835C0080FBCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCAD921522CB835F0080FBCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,8 +156,72 @@
 			children = (
 				9239393422CBFBDC00744723 /* FoodTrucksInfo.swift */,
 				9239393622CBFBF200744723 /* LocationDetails.swift */,
+				9239397122CC68DC00744723 /* FoodTruckCellData.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		9239393822CC03B000744723 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				9239393D22CC075A00744723 /* AFNetworking */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		9239393D22CC075A00744723 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				9239393E22CC075A00744723 /* AFSecurityPolicy.h */,
+				9239393F22CC075A00744723 /* AFNetworkReachabilityManager.h */,
+				9239394022CC075A00744723 /* AFURLSessionManager.h */,
+				9239394122CC075A00744723 /* AFURLRequestSerialization.h */,
+				9239394222CC075A00744723 /* AFURLResponseSerialization.m */,
+				9239394322CC075A00744723 /* AFHTTPSessionManager.m */,
+				9239394422CC075A00744723 /* AFURLResponseSerialization.h */,
+				9239394522CC075A00744723 /* AFURLSessionManager.m */,
+				9239394622CC075A00744723 /* AFURLRequestSerialization.m */,
+				9239394722CC075A00744723 /* AFNetworking.h */,
+				9239394822CC075A00744723 /* AFNetworkReachabilityManager.m */,
+				9239394922CC075A00744723 /* AFSecurityPolicy.m */,
+				9239394A22CC075A00744723 /* UIKit+AFNetworking */,
+				9239395D22CC075A00744723 /* AFCompatibilityMacros.h */,
+				9239395E22CC075A00744723 /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		9239394A22CC075A00744723 /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				9239394B22CC075A00744723 /* UIProgressView+AFNetworking.m */,
+				9239394C22CC075A00744723 /* UIButton+AFNetworking.h */,
+				9239394D22CC075A00744723 /* UIRefreshControl+AFNetworking.m */,
+				9239394E22CC075A00744723 /* UIImageView+AFNetworking.h */,
+				9239394F22CC075A00744723 /* AFImageDownloader.h */,
+				9239395022CC075A00744723 /* AFNetworkActivityIndicatorManager.m */,
+				9239395122CC075A00744723 /* AFAutoPurgingImageCache.h */,
+				9239395222CC075A00744723 /* UIActivityIndicatorView+AFNetworking.h */,
+				9239395322CC075A00744723 /* UIImage+AFNetworking.h */,
+				9239395422CC075A00744723 /* UIProgressView+AFNetworking.h */,
+				9239395522CC075A00744723 /* UIImageView+AFNetworking.m */,
+				9239395622CC075A00744723 /* UIKit+AFNetworking.h */,
+				9239395722CC075A00744723 /* UIRefreshControl+AFNetworking.h */,
+				9239395822CC075A00744723 /* UIButton+AFNetworking.m */,
+				9239395922CC075A00744723 /* UIActivityIndicatorView+AFNetworking.m */,
+				9239395A22CC075A00744723 /* AFAutoPurgingImageCache.m */,
+				9239395B22CC075A00744723 /* AFNetworkActivityIndicatorManager.h */,
+				9239395C22CC075A00744723 /* AFImageDownloader.m */,
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		92E3F4EB22CC6DB700AF1131 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				92E3F4EC22CC6DD000AF1131 /* Date.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		DCAD920022CB835C0080FBCA = {
@@ -128,14 +247,17 @@
 		DCAD920B22CB835C0080FBCA /* SFFoodTrucks */ = {
 			isa = PBXGroup;
 			children = (
+				92E3F4EB22CC6DB700AF1131 /* Extensions */,
 				9239393322CBFBBF00744723 /* Models */,
 				9239393022CBE14D00744723 /* Network Manager */,
 				DCAD924522CB97DF0080FBCA /* List */,
 				DCAD924422CB97B60080FBCA /* Map */,
 				DCAD920C22CB835C0080FBCA /* AppDelegate.swift */,
 				DCAD921522CB835F0080FBCA /* Assets.xcassets */,
+				9239393822CC03B000744723 /* Libraries */,
 				DCAD921722CB835F0080FBCA /* LaunchScreen.storyboard */,
 				DCAD921A22CB835F0080FBCA /* Info.plist */,
+				9239393C22CC059A00744723 /* SFFoodTrucks-Bridging-Header.h */,
 			);
 			path = SFFoodTrucks;
 			sourceTree = "<group>";
@@ -181,6 +303,8 @@
 			children = (
 				DCAD924022CB84F70080FBCA /* ListViewController.swift */,
 				DCAD924122CB84F70080FBCA /* ListViewController.xib */,
+				9239396D22CC527600744723 /* TruckInfoTableViewCell.swift */,
+				9239396E22CC527600744723 /* TruckInfoTableViewCell.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -314,6 +438,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9239397022CC527600744723 /* TruckInfoTableViewCell.xib in Resources */,
 				DCAD921922CB835F0080FBCA /* LaunchScreen.storyboard in Resources */,
 				DCAD921622CB835F0080FBCA /* Assets.xcassets in Resources */,
 				DCAD924322CB84F70080FBCA /* ListViewController.xib in Resources */,
@@ -342,14 +467,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92E3F4ED22CC6DD000AF1131 /* Date.swift in Sources */,
+				9239396422CC075A00744723 /* AFSecurityPolicy.m in Sources */,
 				DCAD924D22CB9C070080FBCA /* MapViewPresenter.swift in Sources */,
+				9239396622CC075A00744723 /* UIRefreshControl+AFNetworking.m in Sources */,
+				9239396322CC075A00744723 /* AFNetworkReachabilityManager.m in Sources */,
+				9239395F22CC075A00744723 /* AFURLResponseSerialization.m in Sources */,
+				9239397222CC68DC00744723 /* FoodTruckCellData.swift in Sources */,
+				9239396522CC075A00744723 /* UIProgressView+AFNetworking.m in Sources */,
+				9239396A22CC075A00744723 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				DCAD920D22CB835C0080FBCA /* AppDelegate.swift in Sources */,
+				9239396822CC075A00744723 /* UIImageView+AFNetworking.m in Sources */,
+				9239396722CC075A00744723 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				9239396222CC075A00744723 /* AFURLRequestSerialization.m in Sources */,
+				9239396922CC075A00744723 /* UIButton+AFNetworking.m in Sources */,
+				9239396B22CC075A00744723 /* AFAutoPurgingImageCache.m in Sources */,
 				DCAD924B22CB9BE20080FBCA /* ListViewPresenter.swift in Sources */,
+				9239396122CC075A00744723 /* AFURLSessionManager.m in Sources */,
 				DCAD923E22CB84DB0080FBCA /* MapViewController.swift in Sources */,
 				9239393222CBE18F00744723 /* GetFoodTrucksList.swift in Sources */,
 				9239393722CBFBF300744723 /* LocationDetails.swift in Sources */,
+				9239396022CC075A00744723 /* AFHTTPSessionManager.m in Sources */,
 				9239393522CBFBDC00744723 /* FoodTrucksInfo.swift in Sources */,
+				9239396F22CC527600744723 /* TruckInfoTableViewCell.swift in Sources */,
 				DCAD924222CB84F70080FBCA /* ListViewController.swift in Sources */,
+				9239396C22CC075A00744723 /* AFImageDownloader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +667,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.saffran.saffranExt.SFFoodTrucks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SFFoodTrucks/SFFoodTrucks-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -543,6 +686,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.saffran.saffranExt.SFFoodTrucks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SFFoodTrucks/SFFoodTrucks-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

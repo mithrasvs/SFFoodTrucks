@@ -17,9 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        let mapViewController = MapViewController()
+        let listViewController = ListViewController()
         
-        let navigationController = UINavigationController.init(rootViewController: mapViewController)
+        let navigationController = UINavigationController.init(rootViewController: listViewController)
         
         navigationController.navigationBar.barTintColor = UIColor.init(red: 1, green: 0, blue: 0, alpha: 1)
         

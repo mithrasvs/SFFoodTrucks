@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="TruckInfoTableViewCell" customModule="SFFoodTrucks" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="119.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food Truck Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVN-tC-whg">
+                        <rect key="frame" x="15" y="10" width="128" height="18"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o5H-Xl-lVr">
+                        <rect key="frame" x="15" y="38" width="53" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cold Truck, Burritos, Soft Drinks" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qy9-V0-JMy">
+                        <rect key="frame" x="15" y="63" width="120" height="29"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10AM - 15AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPh-My-zwL">
+                        <rect key="frame" x="214" y="51" width="98" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="98" id="QU4-Bf-B3L"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="o5H-Xl-lVr" firstAttribute="top" secondItem="FVN-tC-whg" secondAttribute="bottom" constant="10" id="40K-oW-jdd"/>
+                    <constraint firstItem="aPh-My-zwL" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Qy9-V0-JMy" secondAttribute="trailing" constant="20" id="6f9-Fy-wyN"/>
+                    <constraint firstAttribute="trailing" secondItem="aPh-My-zwL" secondAttribute="trailing" constant="8" id="7Ta-tv-cX6"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="FVN-tC-whg" secondAttribute="trailing" constant="20" id="7sg-hm-aUi"/>
+                    <constraint firstItem="o5H-Xl-lVr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="VNz-gc-IC0"/>
+                    <constraint firstItem="aPh-My-zwL" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="o5H-Xl-lVr" secondAttribute="trailing" constant="20" id="Xc5-V2-2pN"/>
+                    <constraint firstItem="Qy9-V0-JMy" firstAttribute="top" secondItem="o5H-Xl-lVr" secondAttribute="bottom" constant="8" id="bZS-J8-2Ri"/>
+                    <constraint firstItem="FVN-tC-whg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="fXk-go-CIu"/>
+                    <constraint firstItem="FVN-tC-whg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="fba-fn-F6S"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Qy9-V0-JMy" secondAttribute="bottom" constant="15" id="g3i-UX-5i7"/>
+                    <constraint firstItem="Qy9-V0-JMy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="g7M-ag-b5F"/>
+                    <constraint firstItem="aPh-My-zwL" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="lau-z2-zaP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addressLabel" destination="o5H-Xl-lVr" id="km2-3q-Feg"/>
+                <outlet property="timeLabel" destination="aPh-My-zwL" id="MQN-QI-1af"/>
+                <outlet property="truckNameLabel" destination="FVN-tC-whg" id="V5K-f5-4cr"/>
+                <outlet property="truckSpecialities" destination="Qy9-V0-JMy" id="NeB-zd-6Ff"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
