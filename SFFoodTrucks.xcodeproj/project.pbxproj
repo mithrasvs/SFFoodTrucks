@@ -28,6 +28,8 @@
 		9239397022CC527600744723 /* TruckInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9239396E22CC527600744723 /* TruckInfoTableViewCell.xib */; };
 		9239397222CC68DC00744723 /* FoodTruckCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9239397122CC68DC00744723 /* FoodTruckCellData.swift */; };
 		92E3F4ED22CC6DD000AF1131 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E3F4EC22CC6DD000AF1131 /* Date.swift */; };
+		92E3F4EF22CC8D1D00AF1131 /* FoodTruckDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E3F4EE22CC8D1D00AF1131 /* FoodTruckDataManager.swift */; };
+		92E3F4F122CCF44400AF1131 /* FoodTruckAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E3F4F022CCF44400AF1131 /* FoodTruckAnnotation.swift */; };
 		DCAD920D22CB835C0080FBCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAD920C22CB835C0080FBCA /* AppDelegate.swift */; };
 		DCAD921622CB835F0080FBCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAD921522CB835F0080FBCA /* Assets.xcassets */; };
 		DCAD921922CB835F0080FBCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAD921722CB835F0080FBCA /* LaunchScreen.storyboard */; };
@@ -99,6 +101,8 @@
 		9239396E22CC527600744723 /* TruckInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TruckInfoTableViewCell.xib; sourceTree = "<group>"; };
 		9239397122CC68DC00744723 /* FoodTruckCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckCellData.swift; sourceTree = "<group>"; };
 		92E3F4EC22CC6DD000AF1131 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		92E3F4EE22CC8D1D00AF1131 /* FoodTruckDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckDataManager.swift; sourceTree = "<group>"; };
+		92E3F4F022CCF44400AF1131 /* FoodTruckAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckAnnotation.swift; sourceTree = "<group>"; };
 		DCAD920922CB835C0080FBCA /* SFFoodTrucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFFoodTrucks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCAD920C22CB835C0080FBCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCAD921522CB835F0080FBCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -258,6 +262,7 @@
 				DCAD921722CB835F0080FBCA /* LaunchScreen.storyboard */,
 				DCAD921A22CB835F0080FBCA /* Info.plist */,
 				9239393C22CC059A00744723 /* SFFoodTrucks-Bridging-Header.h */,
+				92E3F4EE22CC8D1D00AF1131 /* FoodTruckDataManager.swift */,
 			);
 			path = SFFoodTrucks;
 			sourceTree = "<group>";
@@ -314,6 +319,7 @@
 			children = (
 				DCAD923C22CB84DB0080FBCA /* MapViewController.swift */,
 				DCAD923D22CB84DB0080FBCA /* MapViewController.xib */,
+				92E3F4F022CCF44400AF1131 /* FoodTruckAnnotation.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -486,6 +492,8 @@
 				9239396122CC075A00744723 /* AFURLSessionManager.m in Sources */,
 				DCAD923E22CB84DB0080FBCA /* MapViewController.swift in Sources */,
 				9239393222CBE18F00744723 /* GetFoodTrucksList.swift in Sources */,
+				92E3F4EF22CC8D1D00AF1131 /* FoodTruckDataManager.swift in Sources */,
+				92E3F4F122CCF44400AF1131 /* FoodTruckAnnotation.swift in Sources */,
 				9239393722CBFBF300744723 /* LocationDetails.swift in Sources */,
 				9239396022CC075A00744723 /* AFHTTPSessionManager.m in Sources */,
 				9239393522CBFBDC00744723 /* FoodTrucksInfo.swift in Sources */,

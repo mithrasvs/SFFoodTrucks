@@ -12,6 +12,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MapViewController" customModule="SFFoodTrucks" customModuleProvider="target">
             <connections>
+                <outlet property="addressLabel" destination="hLX-EC-erQ" id="UF5-E6-uVa"/>
+                <outlet property="infoLabel" destination="tcg-8i-ja1" id="Uzs-rx-82X"/>
+                <outlet property="mapView" destination="ccM-dH-0wK" id="sCl-kK-ucT"/>
+                <outlet property="specialitiesLabel" destination="TlN-VS-ZHY" id="9hs-RR-f0z"/>
+                <outlet property="timingsLabel" destination="YNz-UT-190" id="d4O-mp-pU8"/>
+                <outlet property="truckNameLabel" destination="Xbr-rr-0lm" id="YIb-6M-lef"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -23,48 +29,55 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xPX-16-Ogy">
                     <rect key="frame" x="0.0" y="712" width="414" height="150"/>
                     <subviews>
-                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="tak-kb-7dm">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
-                            <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="Food Struck Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xbr-rr-0lm">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="109"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hLX-EC-erQ">
-                                    <rect key="frame" x="0.0" y="109" width="414" height="20.5"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Wg-gK-0s0">
-                                    <rect key="frame" x="0.0" y="129.5" width="414" height="20.5"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Specialities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TlN-VS-ZHY">
-                                            <rect key="frame" x="0.0" y="0.0" width="87" height="20.5"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Timings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YNz-UT-190">
-                                            <rect key="frame" x="87" y="0.0" width="327" height="20.5"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </stackView>
-                            </subviews>
-                        </stackView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap on a food truck to find more information" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcg-8i-ja1">
+                            <rect key="frame" x="56.5" y="66" width="301" height="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hLX-EC-erQ">
+                            <rect key="frame" x="10" y="47.5" width="53" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food Struck Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xbr-rr-0lm">
+                            <rect key="frame" x="10" y="15" width="379" height="20.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="Specialities" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TlN-VS-ZHY">
+                            <rect key="frame" x="10" y="74.5" width="65" height="14.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Timings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YNz-UT-190">
+                            <rect key="frame" x="301" y="66" width="98" height="18"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="98" id="fam-0Y-eev"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="bottom" secondItem="tak-kb-7dm" secondAttribute="bottom" id="3nI-cM-tK6"/>
+                        <constraint firstItem="hLX-EC-erQ" firstAttribute="leading" secondItem="xPX-16-Ogy" secondAttribute="leading" constant="10" id="6iw-ym-wJN"/>
                         <constraint firstAttribute="height" constant="150" id="Hal-mT-o7N"/>
-                        <constraint firstAttribute="trailing" secondItem="tak-kb-7dm" secondAttribute="trailing" id="MTy-pl-2Z5"/>
-                        <constraint firstItem="tak-kb-7dm" firstAttribute="leading" secondItem="xPX-16-Ogy" secondAttribute="leading" id="eMI-UI-MS4"/>
-                        <constraint firstItem="tak-kb-7dm" firstAttribute="top" secondItem="xPX-16-Ogy" secondAttribute="top" id="wUr-Z6-ROy"/>
+                        <constraint firstItem="YNz-UT-190" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="TlN-VS-ZHY" secondAttribute="trailing" constant="20" id="HcW-bm-ElE"/>
+                        <constraint firstItem="TlN-VS-ZHY" firstAttribute="leading" secondItem="xPX-16-Ogy" secondAttribute="leading" constant="10" id="Ivl-E4-mzc"/>
+                        <constraint firstAttribute="trailing" secondItem="Xbr-rr-0lm" secondAttribute="trailing" constant="25" id="YjP-xA-YRH"/>
+                        <constraint firstItem="TlN-VS-ZHY" firstAttribute="top" secondItem="hLX-EC-erQ" secondAttribute="bottom" constant="10" id="eVT-ji-XiK"/>
+                        <constraint firstItem="tcg-8i-ja1" firstAttribute="centerX" secondItem="xPX-16-Ogy" secondAttribute="centerX" id="icQ-SV-5Gz"/>
+                        <constraint firstItem="Xbr-rr-0lm" firstAttribute="leading" secondItem="xPX-16-Ogy" secondAttribute="leading" constant="10" id="j6p-qK-yGO"/>
+                        <constraint firstAttribute="trailing" secondItem="YNz-UT-190" secondAttribute="trailing" constant="15" id="rZZ-ye-bVv"/>
+                        <constraint firstItem="YNz-UT-190" firstAttribute="centerY" secondItem="xPX-16-Ogy" secondAttribute="centerY" id="shm-BB-i5q"/>
+                        <constraint firstItem="hLX-EC-erQ" firstAttribute="top" secondItem="Xbr-rr-0lm" secondAttribute="bottom" constant="12" id="uB4-Vi-gUY"/>
+                        <constraint firstItem="Xbr-rr-0lm" firstAttribute="top" secondItem="xPX-16-Ogy" secondAttribute="top" constant="15" id="zId-Ng-4i6"/>
+                        <constraint firstItem="tcg-8i-ja1" firstAttribute="centerY" secondItem="xPX-16-Ogy" secondAttribute="centerY" id="zp1-iO-RgM"/>
                     </constraints>
                 </view>
                 <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ccM-dH-0wK">
