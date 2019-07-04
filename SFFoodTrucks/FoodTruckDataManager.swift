@@ -21,7 +21,6 @@ class FoodTruckDataManager {
         let openFoodTrucks = allFoodTrucks?.filter({isFoodTruckOpenNow(dayOfWeek:$0.dayorder,
                                                                 openTime: $0.start24,
                                                                 closingTime: $0.end24)})
-        
         return openFoodTrucks
     }
     

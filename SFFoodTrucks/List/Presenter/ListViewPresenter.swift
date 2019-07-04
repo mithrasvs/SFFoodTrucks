@@ -28,7 +28,6 @@ class ListViewPresenter: NSObject {
             fail("Something went wrong! Please try again later.")
         }
     }
-    
 }
 
 extension ListViewPresenter{
