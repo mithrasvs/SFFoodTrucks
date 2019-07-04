@@ -19,17 +19,13 @@ struct GetFoodTrucksList {
                                    success: { (URLSessionDataTask, responseObject:Any) in
                                     do{
                                         let jsonResponse = try JSONSerialization.data(withJSONObject: responseObject as Any, options: JSONSerialization.WritingOptions.sortedKeys)
-                                        
                                         let foodTrucksList = try JSONDecoder().decode([FoodTrucksInfo].self, from: jsonResponse)
                                         success(foodTrucksList)
-                                        
                                     } catch let error as NSError {
                                         print("Failed to load: \(error.localizedDescription)")
-                                        
                                     } catch let parsingError {
                                         print("Error", parsingError)
                                     }
-                                    
         }) { (URLSessionDataTask, error : Error) in
             
             failure(error)

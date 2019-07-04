@@ -10,9 +10,7 @@ import UIKit
 import MapKit
 
 class MapViewPresenter {
-
     var foodTruckAnnotations : [FoodTruckAnnotation] = []
-    
     func processFoodTruckAnnotations(){
         guard let openFoodTrucks = FoodTruckDataManager.shared.getOpenFoodTrucks() else {return }
         

@@ -17,7 +17,4 @@ class FoodTruckAnnotation: NSObject, MKAnnotation {
         self.coordinate = coordinate
         self.foodTruckInfo = foodTruckInfo
     }
-    
-    
-
 }

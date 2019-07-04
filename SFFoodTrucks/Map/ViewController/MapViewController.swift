@@ -18,8 +18,6 @@ class MapViewController: UIViewController {
     @IBOutlet weak var timingsLabel: UILabel!
     @IBOutlet weak var infoLabel: UILabel!
     
-//    private var foodTruckAnnotations : [FoodTruckAnnotation] = []
-    
     private let presenter = MapViewPresenter()
     
     override func viewDidLoad() {
@@ -41,17 +39,18 @@ class MapViewController: UIViewController {
         mapView.isZoomEnabled = true
         mapView.isScrollEnabled = true
         mapView.showsPointsOfInterest = true
-//        mapView.layer.masksToBounds = false
         let defaultCenter : CLLocationCoordinate2D = CLLocationCoordinate2DMake(37.792103, -122.402851)
         var coordinateRegion : MKCoordinateRegion = MKCoordinateRegion.init()
         coordinateRegion.center = defaultCenter
         coordinateRegion.span = span
         mapView.setRegion(coordinateRegion, animated: true)
         mapView.delegate = self
-        perform(#selector(zoomToFitMapAnnotations), with: nil, afterDelay: 0.5)
+        if presenter.getFoodTruckAnnotations().count > 0{
+            perform(#selector(zoomToFitMapAnnotations), with: nil, afterDelay: 0.5)
+        }
     }
     
-    @objc func zoomToFitMapAnnotations() {
+     @objc private func zoomToFitMapAnnotations() {
         var topLeftCoord: CLLocationCoordinate2D = CLLocationCoordinate2D()
         topLeftCoord.latitude = -90
         topLeftCoord.longitude = 180
@@ -70,13 +69,15 @@ class MapViewController: UIViewController {
         region.span.latitudeDelta = fabs(topLeftCoord.latitude - bottomRightCoord.latitude) * 1.4
         region.span.longitudeDelta = fabs(bottomRightCoord.longitude - topLeftCoord.longitude) * 1.4
         region = mapView.regionThatFits(region)
+        
         MKMapView.animate(withDuration: 1.0) {
             self.mapView.setRegion(region, animated: true)
             self.mapView.showAnnotations(self.presenter.getFoodTruckAnnotations(), animated: true)
         }
+        
     }
 
-   @objc func flipToListView(){
+   @objc private func flipToListView(){
     UIView.transition(with: self.navigationController!.view, duration: 1.0, options: .transitionFlipFromLeft, animations: {
          self.navigationController?.popViewController(animated: false)
     }, completion: nil)
@@ -88,7 +89,6 @@ class MapViewController: UIViewController {
 extension MapViewController : MKMapViewDelegate{
  
     func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
-
         let annotation = view.annotation as? FoodTruckAnnotation
         infoLabel.isHidden = true
         truckNameLabel.isHidden = false

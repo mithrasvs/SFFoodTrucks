@@ -41,13 +41,13 @@
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food Struck Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xbr-rr-0lm">
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food Struck Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="Xbr-rr-0lm">
                             <rect key="frame" x="10" y="15" width="379" height="20.5"/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="Specialities" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TlN-VS-ZHY">
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="Specialities" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="TlN-VS-ZHY">
                             <rect key="frame" x="10" y="74.5" width="65" height="14.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                             <nil key="textColor"/>
@@ -73,6 +73,7 @@
                         <constraint firstItem="TlN-VS-ZHY" firstAttribute="top" secondItem="hLX-EC-erQ" secondAttribute="bottom" constant="10" id="eVT-ji-XiK"/>
                         <constraint firstItem="tcg-8i-ja1" firstAttribute="centerX" secondItem="xPX-16-Ogy" secondAttribute="centerX" id="icQ-SV-5Gz"/>
                         <constraint firstItem="Xbr-rr-0lm" firstAttribute="leading" secondItem="xPX-16-Ogy" secondAttribute="leading" constant="10" id="j6p-qK-yGO"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="TlN-VS-ZHY" secondAttribute="bottom" constant="5" id="oRd-Lm-9ai"/>
                         <constraint firstAttribute="trailing" secondItem="YNz-UT-190" secondAttribute="trailing" constant="15" id="rZZ-ye-bVv"/>
                         <constraint firstItem="YNz-UT-190" firstAttribute="centerY" secondItem="xPX-16-Ogy" secondAttribute="centerY" id="shm-BB-i5q"/>
                         <constraint firstItem="hLX-EC-erQ" firstAttribute="top" secondItem="Xbr-rr-0lm" secondAttribute="bottom" constant="12" id="uB4-Vi-gUY"/>

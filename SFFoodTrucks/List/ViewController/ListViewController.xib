@@ -26,8 +26,8 @@
                     <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </tableView>
-                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wt5-60-Ncp">
-                    <rect key="frame" x="186" y="64" width="42" height="21"/>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wt5-60-Ncp">
+                    <rect key="frame" x="186" y="64" width="42" height="20.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -36,13 +36,16 @@
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Dzu-Xe-vaZ" secondAttribute="trailing" id="Ag6-cI-12G"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Wt5-60-Ncp" secondAttribute="trailing" constant="15" id="ITG-Rl-ZrH"/>
                 <constraint firstItem="Dzu-Xe-vaZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="WYK-CR-lYb"/>
                 <constraint firstItem="Wt5-60-Ncp" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="Wqc-HN-7sx"/>
+                <constraint firstItem="Wt5-60-Ncp" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="kNK-hI-aE2"/>
                 <constraint firstItem="Wt5-60-Ncp" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="lI6-JL-ndR"/>
                 <constraint firstItem="Dzu-Xe-vaZ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="yym-bS-6JL"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Dzu-Xe-vaZ" secondAttribute="bottom" id="zaX-Uy-eNS"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="50.724637681159422" y="35.491071428571423"/>
         </view>
     </objects>
 </document>

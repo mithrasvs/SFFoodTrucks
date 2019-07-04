@@ -43,10 +43,9 @@ class ListViewController: UIViewController {
                 self.errorMessageLabel.isHidden = false
                 self.errorMessageLabel.text = message
         })
-        
     }
     
-    @objc func flipToMapView(){
+    @objc private func flipToMapView(){
         let mapViewController = MapViewController.init(nibName: "MapViewController", bundle: nil)
         UIView.transition(with: self.navigationController!.view, duration: 1.0, options: .transitionFlipFromLeft, animations: {
            self.navigationController?.pushViewController(mapViewController, animated: false)
@@ -72,8 +71,6 @@ extension ListViewController : UITableViewDelegate,UITableViewDataSource{
         cell.addressLabel.text = foodTruckCellData.address
         cell.truckSpecialities.text = foodTruckCellData.specialities
         cell.timeLabel.text = foodTruckCellData.timings
-        
-        
         return cell
     }
     
