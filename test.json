@@ -1,0 +1,21 @@
+{ "type" : "radiobuttons", "patient" : false, "text" : "How are you today", "id" : 63339, "position" : 2,
+
+"options" : "123344:ok today;123345:see you tomorrow;123346:call friend;123347:call lisa;",
+
+"required" : true,
+
+"choices" : { "123347" : { "value" : 3, "option" : "iOS" },
+
+"123345" : {
+  "option" : "Android",
+  "value" : 1
+},
+"123346" : {
+  "option" : "Windows",
+  "value" : 2
+},
+"123344" : {
+  "option" : "MAC",
+  "value" : 0
+}
+} }
